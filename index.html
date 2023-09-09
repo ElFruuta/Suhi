@@ -1,0 +1,39 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ingresa nuestra fecha :3</h1>
+        <form id="password-form">
+            <input type="text" id="password" placeholder="Fecha importante (DDMM)">
+            <button type="submit">Ingresa :D</button>
+        </form>
+    </div>
+    <div class="hidden" id="secret-card">
+        <div class="card">
+            <h1>¡Sorpresa!</h1>
+            <h2>Claro ibas a recordarlo <3</h2>
+            <p>Aquí tienes una carta especial para ti.</p>
+            <h3>Na que carta, no quiero aburrirte con tremendo texto eso te lo mando al wtss</h3>
+            <!-- Contenido de la carta -->
+            <h1>Encuentra el mensaje waa <3</h1>
+            <p>Haz clic en los corazones para revelar el mensaje.</p>
+    
+            <div id="mensaje">
+                <span class="heart" onclick="mostrarLetra(0)">❤</span>
+                <span class="heart" onclick="mostrarLetra(1)">❤</span>
+                <span class="heart" onclick="mostrarLetra(2)">❤</span>
+                <span class="heart" onclick="mostrarLetra(3)">❤</span>
+                <span class="heart" onclick="mostrarLetra(4)">❤</span>
+            </div>
+            
+            <p id="resultado"></p>
+    
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
